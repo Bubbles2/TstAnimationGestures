@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/flower" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="myAnimate"
+        android:text="Animate" />
+    
+      <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/button1"
+        android:onClick="moveImg"
+        android:text="Move" />
+
+      <LinearLayout
+          android:id="@+id/topLL"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="25dp"
+          android:orientation="vertical" >
+          
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Line" />
+        
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Line" />
+         
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Line" />
+          
+        <Button
+        android:id="@+id/butDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myDrop"
+        android:text="Drop" />
+      </LinearLayout>
+
+</RelativeLayout>

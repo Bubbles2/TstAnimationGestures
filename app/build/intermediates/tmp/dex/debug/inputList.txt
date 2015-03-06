@@ -1,0 +1,2 @@
+/Users/dfinlay-air/Desktop/AndroidStudio/TstAnimationGestures/app/build/intermediates/classes/debug
+/Users/dfinlay-air/Desktop/AndroidStudio/TstAnimationGestures/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-1df1b812e8a18273a4209b8e3e9e72a991b54668.jar
